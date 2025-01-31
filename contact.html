@@ -3,8 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sri Sai Hindi Coaching offers expert Hindi tuition to students of all levels. Enroll in our Hindi courses today!">
+    <meta name="keywords" content="Hindi coaching, Hindi tuition, learn Hindi, Hindi classes, online Hindi classes">
+    <meta name="author" content="Sanjay Arjun">
     <title>Contact Us - Sri Sai Hindi Coaching</title>
+
+    <!-- Google Analytics Tracking Code -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-GVMFTT205T"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-GVMFTT205T');
+    </script>
+
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+    </style>
 </head>
 <body>
     <nav>
@@ -23,15 +43,15 @@
         <p>WhatsApp: <a href="https://wa.me/91XXXXXXXXXX" target="_blank">Chat with us</a></p>
 
         <h2>Send Us a Message</h2>
-        <form>
+        <form action="https://formspree.io/f/gcsgdv10116@gmail.com" method="POST">
             <label>Name:</label>
-            <input type="text" required>
+            <input type="text" name="name" required>
 
             <label>Email:</label>
-            <input type="email" required>
+            <input type="email" name="email" required>
 
             <label>Message:</label>
-            <textarea required></textarea>
+            <textarea name="message" required></textarea>
 
             <button type="submit">Submit</button>
         </form>
